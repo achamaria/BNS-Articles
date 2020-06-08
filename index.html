@@ -63,10 +63,6 @@
     
       </div>
       
-      
-
-      
-    
       <div class="form-group margin-row">
         <label for="articleURL">Content Fragment URL</label>
         <textarea class="form-control" id="articleURL" rows="2"></textarea>
@@ -76,8 +72,14 @@
     </form>
     <button class="btn btn-primary" id="submitBtn">Get URL</button>
 
-    <p id="result"></p>
-  </div>
+    <div id="resultsDiv" class="jumbotron">
+      <h5 class="margin-row">Article URL</h5>
+      <p id="result"></p>
+    
+      <h5>Staging URL</h5>
+      <p id="resultStaging"></p>  
+    </div>
+    </div>
 
 </main><!-- /.container -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
