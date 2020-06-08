@@ -1,0 +1,16 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+#result{
+  margin-top: 25px;
+}
+#submitBtn{
+  margin-top: 20px;
+}
+#email{
+  font-size: 0.8em;
+}
